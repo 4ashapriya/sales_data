@@ -6,5 +6,5 @@ Clone the git repository: git clone https://github.com/4ashapriya/sales_data.git
 Install the dependencies: pip install -r requirements.txt
 Usage:
 
-Run the Flask app: python app.py
-Send a POST request to the API endpoint: http://localhost:5000/report with the payload
+Run the Flask app: python main.py
+Send a POST request to the API endpoint: http://localhost:4000/report with the payload
