@@ -1,4 +1,5 @@
 import configparser
+import json
 from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
 import urllib.parse
@@ -41,6 +42,4 @@ def insert_data():
 def report():
     inp = request.get_json()
     report = utils.generate_report(inp['date'])
-    print(report, type(report))
-    return {"output": report,
-            "status_code": 200}
+    return json.dumps(report)
