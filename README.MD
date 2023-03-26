@@ -8,3 +8,4 @@ Usage:
 
 Run the Flask app: python main.py
 Send a POST request to the API endpoint: http://localhost:4000/report with the payload
+{"date": "2019-08-01"}
